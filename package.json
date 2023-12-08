@@ -1,0 +1,20 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "payment status webhook",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "author": "edouard yonga",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}
